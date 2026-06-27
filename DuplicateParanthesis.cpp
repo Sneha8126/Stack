@@ -25,7 +25,9 @@ bool isDuplicate(string str){
      
 
 int main(){
+    // String 1:
     string str1="((a+b))";
+    //String 2:
     string str2 = "((a+b)+(c+d))";
     cout<<isDuplicate(str1)<<endl;
     cout<<isDuplicate(str2)<<endl;
