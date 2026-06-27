@@ -41,6 +41,7 @@ string decodeString(string s){
 }
 
 int main(){
+    // The string is aaabcbc
     string s = "3[a]2[bc]";
     cout<<decodeString(s)<<endl;
     return 0;
